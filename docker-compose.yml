@@ -1,0 +1,24 @@
+services:
+  server:
+    build:
+      context: ./Server
+    volumes:
+      - ./Server:/app
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=development
+    command: npm run start
+
+  client:
+    build:
+      context: ./Client
+    volumes:
+      - ./Client:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - server
