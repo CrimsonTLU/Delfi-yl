@@ -16,6 +16,8 @@ This is a simple Calculator App built using Typescript and GraphQL. It can be us
 * Unit tests for calculator API, 100% coverage (checked using nyc)
 * IP-based rate limiting for Multiply call
 
+![Tests](tests.png)
+
 ## Use instructions
 
 1. Clone the Github repository (Delfi-yl)
