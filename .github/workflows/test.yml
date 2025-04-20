@@ -12,4 +12,4 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 23
-      - run: cd server && npm install && npm run test
+      - run: cd Server && npm install && npm run test
