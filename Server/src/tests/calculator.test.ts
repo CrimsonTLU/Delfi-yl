@@ -1,6 +1,8 @@
 import { expect } from "chai";
 import { resolvers } from "../resolvers/calculator";
 
+// Async test suite to test Calculator API's core functionality -
+// sum, subtract, multiply, divide, division by 0
 describe("Calculator Resolvers", () => {
   it("adds two numbers", () => {
     const result = resolvers.Query.sum(null, { a: 3, b: 4 });
