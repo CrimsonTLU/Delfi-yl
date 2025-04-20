@@ -14,6 +14,7 @@ This is a simple Calculator App built using Typescript and GraphQL. It can be us
 * Simple clean calculator UI
 * Docker setup for quickly launching the application using "docker-compose up"
 * Unit tests for calculator API, 100% coverage (checked using nyc)
+* IP-based rate limiting for Multiply call
 
 ## Use instructions
 
